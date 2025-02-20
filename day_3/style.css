@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(209, 150, 82);
+    color: white; 
+}
+table{
+    border: 2px solid thistle;
+}
+th{
+    border: 2px solid rgb(131, 94, 26);
+}
+td{
+    border: 1px dashed black;
+}
+p{
+    background-color: aquamarine;
+}
+
+a{
+    background-color: rgb(178, 211, 32);
+}
+
+div{
+    background-color: red;
+}
+
+span{
+    background-color: rgb(198, 165, 230);
+}
+#id_def{
+    background-color: beige;
+    
+}
+#class_def{
+    background-color: blue;
+}
+
+.lec9{
+    color: orangered;
+    font-size: larger;
+}
+
+.class9{
+    font-style: italic;
+    color: whitesmoke;
+}

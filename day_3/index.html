@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This webpage shows the things I learned from Sigma Web Development Course.">
+    <link rel="stylesheet" href="style.css">
+    <title>Lecture 6, 7, 8 and 9 Implementation</title>
+</head>
+
+<body>
+    <h2>Lecture No# 6</h2>
+    <p>In this video I learned about SEO, Core Web Vitals (CLS, LCP, FID)</p>
+    <dl>
+        <dt>CLS:</dt>
+        <dd>Commulative Layout Shift means how much page layout changes while loading. Thrive to keep it minimum.</dd>
+        <dt>LCP:</dt>
+        <dd>Largest Contextual Paint means how much time browser take to render the largest part of page. Should be
+            <=2.5s. </dd>
+        <dt>FID:</dt>
+        <dd>First Interaction Delay means how much time it takes to start processing the first interaction of user.
+            Should be <=100ms Meta title and description should be present and must reflect the page content for SEO
+                purposes. </dd>
+    </dl>
+    <hr>
+
+    <h2>Lecture No# 7</h2>
+    <p>In this lecture I learned about Forms, and input tags.</p>
+    <h3>Subscribe To My Mailing List</h3>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="Full Name" id="name" placeholder="Enter your full name" required>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+            <label for="phone">Phone No#</label>
+            <input type="tel" id="phone" name="phone" pattern="^\+923[0-4][0-9]{8}$" placeholder="+923001234567"
+                value="+923" title="Enter a valid Pakistani phone number starting with +923 (e.g., +923001234567)"
+                required>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="gen_male" value="male">
+            <label for="gen_male">Male</label>
+            <input type="radio" name="gender" id="gen_female" value="female">
+            <label for="gen_female">Female</label>
+        </div>
+        <div>
+            <label for="test_file">Upload Profile Picture</label>
+            <input type="file" name="temp_file" id="test_file">
+        </div>
+        <div>
+            <label for="linkedin_url">LinkedIn URL</label>
+            <input type="url" name="linkedin" id="linkedin_url" size="40"
+                placeholder="https://www.linkedin.com/in/techsavvyumer">
+        </div>
+        <div>
+            <label for="like_meter">How much you like this website?</label>
+            <input type="range" name="Like" id="like_meter" value="0" step="15">
+        </div>
+        <div>
+            <input type="checkbox" name="concent" id="concent_box" required>
+            <label for="concent_box">I want to be a subscriber of your mailing list.</label>
+        </div>
+        <div>
+            <label for="feedback">Feedback</label>
+            <textarea name="feedback" rows="4" cols="50" placeholder="Enter your feedback here..." autofocus></textarea>
+        </div>
+        <div>
+            <label for="device">Favourite Device</label>
+            <select name="device">
+                <option value="pc">PC</option>
+                <option value="laptop">Laptop</option>
+                <option value="console">Console</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit_btn" value="Subscribe">
+        </div>
+    </form>
+    <hr>
+
+    <h2>Lecture No# 8</h2>
+    <h3>In this lecture I learned about inline and block elements.</h3>
+    <p>Hey I am a paragraph, I am a block element</p>
+    <span>I am span and I am inline</span>
+    <a href="">yes it is inline</a>
+    <div> I am also a block element</div>
+    <a href="https://google.com">Google</a>
+
+    <h3>Quiz Form</h3>
+    <form action="#" method="dialog">
+        <div>
+            <label for="qname">Name</label>
+            <input type="text" name="qname" id="qname">
+        </div>
+        <div>
+            <label for="qcity">City</label>
+            <input type="text" name="qcity" id="qcity">
+        </div>
+        <div>
+            <label for="qzip">Zip Code</label>
+            <input type="text" name="qzip" id="qzip">
+        </div>
+        <div>
+            <input type="submit" name="qsubmit" id="qsubmit" value="Submit Quiz">
+        </div>
+    </form>
+    <hr>
+
+    <h2>Lecture No# 9</h2>
+    <h3>In this lecture I learned about the difference between id and class.</h3>
+    <div>
+        <span id="id_def" class="lec9">ID is a unique identifier to identify individual elements and tags.</span>
+    </div>
+    <div>
+        <span id="class_def" class="lec9">ID can also be used in the end of URL with a # sign to go directly to that
+            element when a page loads.</span>
+    </div>
+    <div>
+        <span id="class_def" class="lec9 class9">While on the other hand, a class is usually assigned to multiple tags
+            or elements of same group/category.</span>
+    </div>
+
+    <hr>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
