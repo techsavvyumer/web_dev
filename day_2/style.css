@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(209, 150, 82);
+    color: white; 
+}
+table{
+    border: 2px solid thistle;
+}
+th{
+    border: 2px solid rgb(131, 94, 26);
+}
+td{
+    border: 1px dashed black;
+}
